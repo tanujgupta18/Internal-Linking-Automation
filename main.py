@@ -18,7 +18,7 @@ def search(query, api_key, cse_id, **kwargs):
     return json.loads(response.text)
 
 def main():
-    st.title("Google Custom Search Streamlit App")
+    st.title("Custom Word Search App")
 
     site = st.text_input("Enter your domain:")
     api_key = "AIzaSyAldBNS7Jy7oFNkMmy0HdSjGo6Qz0Yy0kI"
