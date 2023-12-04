@@ -18,7 +18,7 @@ def search(query, api_key, cse_id, **kwargs):
     return json.loads(response.text)
 
 def main():
-    st.title("Google Custom Search API Integration")
+    st.title("Custom Keyword API")
 
     # User input for domain
     site = st.text_input("Enter your domain:")
